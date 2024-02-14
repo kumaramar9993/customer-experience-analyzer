@@ -3,19 +3,16 @@ import os
 from fetchReview import GoogleAppReviewExtractionPipeline,AppleAppReviewExtractionPipeline
 
 class ReviewExtractionPipeline():
-    def __init__(self,company_name,app_info,output_file):
+    def __init__(self,company_name,app_info):
         self.company_name = company_name
-        self.output_file = output_file
         self.google_store_info = app_info["google_play_store_info"]
         self.apple_store_info = app_info["apple_play_store_info"]
         
         self.google_app_id = self.google_store_info.app_id
         self.apple_app_id = self.apple_store_info.app_url
+        dirname = os.path.dirname(__file__)
+        self.output_path = os.path.join(dirname, "data",company_name)
 
-        self.filename = os.path.basename(output_file)
-        self.images_dir = f"images/input/{os.path.basename(self.pdffile)[:-4]}/"
-        
-        
     def extract_review(self):
         google_reviews = GoogleAppReviewExtractionPipeline(self.google_app_id)
         apple_reviews = AppleAppReviewExtractionPipeline(self.app_url)
@@ -44,9 +41,17 @@ class ReviewExtractionPipeline():
         return all_reviews_df
     def write(self):
         df = self.combine_reviews()
-        df.to_csv()
+        df.to_csv(self.output_path,index=False)
+
         
         
+if __name__ =='__main__':
+    app_info = {
+        "google_play_store_info":'com.phonepe.app',
+        "apple_play_store_info" :"https://apps.apple.com/in/app/phonepe-secure-payments-app/id1170055821"
+    }
+    rep = ReviewExtractionPipeline(company_name="PhonePe",app_info=app_info)
+    rep.write()
 
 
     
