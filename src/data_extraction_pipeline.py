@@ -1,21 +1,55 @@
 import pandas as pd
 import os
-from fetchReview import GoogleAppReviewExtractionPipeline,AppleAppReviewExtractionPipeline
+# from fetchReview import GoogleAppReviewExtractionPipeline,AppleAppReviewExtractionPipeline
+
+from google_play_scraper import Sort, reviews_all
+from app_store_scraper import AppStore
+import pandas as pd
+
+class GoogleAppReviewExtractionPipeline:
+    def __init__(self,app_id):
+        self.app_id = app_id
+    
+    def extract_review(self):
+        reviews_list = reviews_all(
+            self.app_id,
+            sleep_milliseconds=0, # defaults to 0
+            lang='en', # defaults to 'en'
+            country='in', # defaults to 'us'
+            sort=Sort.NEWEST, # defaults to Sort.MOST_RELEVANT
+            filter_score_with=None # defaults to None(means all score)
+        )
+        reviews_df = pd.DataFrame(reviews_list)
+        return reviews_df
+
+
+class AppleAppReviewExtractionPipeline:
+    def __init__(self,app_url):
+        app_id = app_url.split("/")[-1].replace("id","")
+        file_name = app_url.split("/")[-2].replace("-","_")
+        self.app_id = app_id
+        self.file_name = file_name
+    def extract_reviews(self):
+        reviews_list = AppStore(country="IN",app_name=self.file_name, app_id=self.app_id)
+        reviews_list.review()
+        return pd.DataFrame(reviews_list.reviews)
+    
+
 
 class ReviewExtractionPipeline():
     def __init__(self,company_name,app_info):
         self.company_name = company_name
-        self.google_store_info = app_info["google_play_store_info"]
-        self.apple_store_info = app_info["apple_play_store_info"]
+        self.google_app_id = app_info["google_play_store_info"]
+        self.apple_app_id = app_info["apple_play_store_info"]
         
-        self.google_app_id = self.google_store_info.app_id
-        self.apple_app_id = self.apple_store_info.app_url
+        # self.google_app_id = self.google_store_info.app_id
+        # self.apple_app_id = self.apple_store_info.app_url
         dirname = os.path.dirname(__file__)
         self.output_path = os.path.join(dirname, "data",company_name)
 
     def extract_review(self):
         google_reviews = GoogleAppReviewExtractionPipeline(self.google_app_id)
-        apple_reviews = AppleAppReviewExtractionPipeline(self.app_url)
+        apple_reviews = AppleAppReviewExtractionPipeline(self.apple_app_id)
         return google_reviews, apple_reviews
     
     def combine_reviews(self):
