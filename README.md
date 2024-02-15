@@ -30,7 +30,9 @@ PhonePe and Google’s local payments services — controlled, on average, 80-85
 <\p>
 
 
-# The Data
+
+# Overview of Customer Experience Analyzer Framework
+## Data Extraction Pipeline
 
 Currently, my analysis is based solely on **reviews from the Google Play Store and Apple App Store**. This approach could be expanded to incorporate feedback from public forums, social media monitoring, and internal company data.
 
@@ -38,15 +40,12 @@ Currently, my analysis is based solely on **reviews from the Google Play Store a
 > During the extraction process, there may be instances where some reviews are not captured due to occasional malfunctions of the crawler. As a result, the number of reviews collected might not accurately reflect the total number of reviews available.
 
 
-# Overview of Customer Experience Analyzer Framework
-## Data Extraction Pipeline
-
-
 ## Creating Generative Pre-Trained Transformer Framework
 ### Providing Context of Business
 
 ### Prompt Engineering 
 In the domain of artificial intelligence, particularly within the spheres of Natural Language Processing (NLP) and the latest generative AI technologies such as GPT-3 and DALL-E, prompt engineering emerges as an indispensable discipline. This specialized field entails the strategic formulation of inputs, or "prompts," tailored to direct AI towards generating specific, desired outputs. The practice of prompt engineering is characterized by a methodical, iterative approach, necessitating a series of well-defined steps to refine prompts and achieve precise results. This process is crucial for professionals seeking to harness the full potential of AI in producing accurate and contextually relevant responses.
+
 ![alt text](https://pathmonk.com/wp-content/uploads/2023/08/Prompt-Engineering-Effectively-A-Marketers-Guide-to-Mastering-Prompt-Engineering-1024x585.png)
 
 ## Analysing Reviews 
