@@ -8,7 +8,7 @@ This data science project focuses on curating a thorough collection of issues re
 ![alt text](https://cdn.timesbull.com/wp-content/uploads/2024/02/PhonePe-and-Google-Pay-jpg.webp)
 
 > [!CAUTION]
-> The aim of this content is to illustrate the capabilities of NLP and Generative AI, along with identifying common challenges in payment applications. It is intended solely for. academic and research purposes and should not be used for making business decisions.
+> This content aims to illustrate the capabilities of NLP and Generative AI, along with identifying common challenges in payment applications. It is intended solely for academic and research purposes and should not be used for making business decisions.
 
 #### [PhonePe](https://www.phonepe.com/)
 
