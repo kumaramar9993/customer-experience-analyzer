@@ -48,9 +48,7 @@ In the domain of artificial intelligence, particularly within the spheres of Nat
 
 ![alt text](https://pathmonk.com/wp-content/uploads/2023/08/Prompt-Engineering-Effectively-A-Marketers-Guide-to-Mastering-Prompt-Engineering-1024x585.png)
 > [!TIP]
-> Prompt engineering is particularly effective in scenarios with limited or labeled data, offering a streamlined approach to crafting solutions with minimal time and effort. By guiding AI models through precise inputs, it enhances response relevance and efficiency, making it a valuable tool in developing agile and targeted AI applications【45†source】.
-
-
+> Prompt engineering is particularly effective in scenarios with limited or non-existent labeled data, offering a streamlined approach to crafting solutions with minimal time and effort. By guiding AI models through precise inputs, it enhances response relevance and efficiency, making it a valuable tool in developing agile and targeted AI applications. 
 ## Analysing Reviews 
     1. Generating Tags, 
     2. Tagging Emotional Tone 
