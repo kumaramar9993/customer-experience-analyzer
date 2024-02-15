@@ -9,8 +9,7 @@ This data science project focuses on curating a thorough collection of issues re
 ![alt text](https://cdn.timesbull.com/wp-content/uploads/2024/02/PhonePe-and-Google-Pay-jpg.webp)
 
 # Industry Analysis & Business Insight
-
-
+![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jpg)
 # Overview of Customer Experience Analyzer Framework
 
 ## Data Extraction Pipeline
