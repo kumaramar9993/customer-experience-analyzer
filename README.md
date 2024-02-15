@@ -7,6 +7,8 @@
 This data science project focuses on curating a thorough collection of issues reported by users of Payment Apps, centering on frequent challenges such as account management, transaction handling, and customer service, along with product, system, and feature malfunctions. It then delves into the emotional responses elicited by these challenges, analyzing sentiments expressed in user feedback, ranging from satisfaction and frustration to trust and dissatisfaction. By examining both the practical difficulties and the emotional reactions of Payment App users, specifically those using **PhonePe and Google Pay**, this project aims to offer an in-depth understanding of the overall user experience encountered on these platforms.
 ![alt text](https://cdn.timesbull.com/wp-content/uploads/2024/02/PhonePe-and-Google-Pay-jpg.webp)
 
+> [!CAUTION]
+> The aim of this content is to illustrate the capabilities of NLP and Generative AI, along with identifying common challenges in payment applications. It is intended solely for. academic and research purposes and should not be used for making business decisions.
 
 #### [PhonePe](https://www.phonepe.com/)
 
@@ -16,6 +18,7 @@ PhonePe is an all-encompassing payment application that empowers you to conduct 
 
 Google Pay serves as an integrated and secure digital payment platform, aimed at refining and simplifying your financial transactions and management. It facilitates seamless contactless payments across a wide range of venues, immediate money transfers among peers, and access to exclusive deals and rewards from your favored establishments. Google Pay goes further by providing analytical tools to track and manage your spending, offering comprehensive transaction summaries and valuable financial insights linked to your accounts. With a focus on user-friendliness, transactional privacy, and smooth integration with e-commerce, Google Pay stands out as a versatile solution for handling daily payments and overseeing personal finance efficiently.
 
+# Understanding the Mechanics of Payment Apps
 
 # Industry Analysis & Business Insight
 PhonePe and Google’s local payments services — controlled, on average, 80-85% of UPI volumes every month. NPCI data as of December 2023 shows PhonePe had a 46% share in UPI volumes, followed by Google Pay at 36% and Paytm Payments Bank at 13%.
@@ -32,19 +35,8 @@ PhonePe and Google’s local payments services — controlled, on average, 80-85
 Currently, my analysis is based solely on **reviews from the Google Play Store and Apple App Store**. This approach could be expanded to incorporate feedback from public forums, social media monitoring, and internal company data.
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> During the extraction process, there may be instances where some reviews are not captured due to occasional malfunctions of the crawler. As a result, the number of reviews collected might not accurately reflect the total number of reviews available.
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 # Overview of Customer Experience Analyzer Framework
 ## Data Extraction Pipeline
@@ -72,6 +64,21 @@ Currently, my analysis is based solely on **reviews from the Google Play Store a
 
 # Competitior Analysis - Comparing Phone vs Google Pay
 
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 
 
 Image References:
