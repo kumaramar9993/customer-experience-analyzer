@@ -22,3 +22,9 @@
 
 
 # Competitior Analysis - Comparing Phone vs Google Pay
+
+
+
+Image References:
+
+https://www.timesbull.com/trending/news/cutting-the-dominance-of-phonepe-and-google-pay-2024-02-13-186249.html
