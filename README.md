@@ -5,8 +5,13 @@
 # Goal of Project
 
 This data science project focuses on curating a thorough collection of issues reported by users of Payment Apps, centering on frequent challenges such as account management, transaction handling, and customer service, along with product, system, and feature malfunctions. It then delves into the emotional responses elicited by these challenges, analyzing sentiments expressed in user feedback, ranging from satisfaction and frustration to trust and dissatisfaction. By examining both the practical difficulties and the emotional reactions of Payment App users, specifically those using **PhonePe and Google Pay**, this project aims to offer an in-depth understanding of the overall user experience encountered on these platforms.
-
 ![alt text](https://cdn.timesbull.com/wp-content/uploads/2024/02/PhonePe-and-Google-Pay-jpg.webp)
+
+#### !PhonePe[https://play.google.com/store/apps/details?id=com.phonepe.app&hl=en_IN&gl=US]
+PhonePe is a payments app that allows you to use BHIM UPI, your credit card and debit card or wallet to recharge your mobile phone, pay all your utility bills and to make instant payments at your favourite offline and online stores. You can also invest in mutual funds and buy insurance plans on PhonePe. Get Car & Bike Insurance on our app.
+Link your bank account on PhonePe and transfer money with BHIM UPI instantly! The PhonePe app is safe and secure, meets all your payment, investment, mutual funds, insurance and banking needs, and is much better than Internet banking.
+
+#### Google
 
 # Industry Analysis & Business Insight
 ![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jpg)
