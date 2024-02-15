@@ -1,40 +1,7 @@
-import pandas as pd
+from src.fetchReview import GoogleAppReviewExtractionPipeline,AppleAppReviewExtractionPipeline
 import os
-# from fetchReview import GoogleAppReviewExtractionPipeline,AppleAppReviewExtractionPipeline
-
-from google_play_scraper import Sort, reviews_all
-from app_store_scraper import AppStore
 import pandas as pd
-
-class GoogleAppReviewExtractionPipeline:
-    def __init__(self,app_id):
-        self.app_id = app_id
-    
-    def extract_review(self):
-        reviews_list = reviews_all(
-            self.app_id,
-            sleep_milliseconds=0, # defaults to 0
-            lang='en', # defaults to 'en'
-            country='in', # defaults to 'us'
-            sort=Sort.NEWEST, # defaults to Sort.MOST_RELEVANT
-            filter_score_with=None # defaults to None(means all score)
-        )
-        reviews_df = pd.DataFrame(reviews_list)
-        return reviews_df
-
-
-class AppleAppReviewExtractionPipeline:
-    def __init__(self,app_url):
-        app_id = app_url.split("/")[-1].replace("id","")
-        file_name = app_url.split("/")[-2].replace("-","_")
-        self.app_id = app_id
-        self.file_name = file_name
-    def extract_reviews(self):
-        reviews_list = AppStore(country="IN",app_name=self.file_name, app_id=self.app_id)
-        reviews_list.review()
-        return pd.DataFrame(reviews_list.reviews)
-    
-
+from datetime import datetime
 
 class ReviewExtractionPipeline():
     def __init__(self,company_name,app_info):
@@ -48,12 +15,16 @@ class ReviewExtractionPipeline():
         self.output_path = os.path.join(dirname, "data",company_name)
 
     def extract_review(self):
-        google_reviews = GoogleAppReviewExtractionPipeline(self.google_app_id)
+        print("Class objects create for review extraction")
         apple_reviews = AppleAppReviewExtractionPipeline(self.apple_app_id)
-        return google_reviews, apple_reviews
+        apple_reviews_df = apple_reviews.extract_reviews()
+        
+        google_reviews = GoogleAppReviewExtractionPipeline(self.google_app_id)
+        google_reviews_df = google_reviews.extract_reviews()
+        return google_reviews_df, apple_reviews_df
     
     def combine_reviews(self):
-
+        
         # extracting review
         google_df, apple_df = self.extract_review()
         
@@ -71,21 +42,15 @@ class ReviewExtractionPipeline():
         
         # combining reviews
         all_reviews_df =  pd.concat([google_df,apple_df],axis=0)
+        print("Data Standardization complete")
         
         return all_reviews_df
     def write(self):
         df = self.combine_reviews()
-        df.to_csv(self.output_path,index=False)
-
-        
-        
-if __name__ =='__main__':
-    app_info = {
-        "google_play_store_info":'com.phonepe.app',
-        "apple_play_store_info" :"https://apps.apple.com/in/app/phonepe-secure-payments-app/id1170055821"
-    }
-    rep = ReviewExtractionPipeline(company_name="PhonePe",app_info=app_info)
-    rep.write()
-
-
-    
+        if os.path.exists(self.output_path):
+            final_path = os.path.join(self.output_path,str(datetime.today().date())+"_reviews.csv")
+        else:
+            os.makedirs(self.output_path)
+            final_path = os.path.join(self.output_path,"_reviews.csv")
+        df.to_csv(final_path,index=False)
+        print(f"Successfully Written data into %s" % final_path)

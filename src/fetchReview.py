@@ -6,7 +6,7 @@ class GoogleAppReviewExtractionPipeline():
     def __init__(self,app_id):
         self.app_id = app_id
     
-    def extract_review(self):
+    def extract_reviews(self):
         reviews_list = reviews_all(
             self.app_id,
             sleep_milliseconds=0, # defaults to 0
@@ -16,6 +16,7 @@ class GoogleAppReviewExtractionPipeline():
             filter_score_with=None # defaults to None(means all score)
         )
         reviews_df = pd.DataFrame(reviews_list)
+        print('Google app review extraction finished')
         return reviews_df
 
 
@@ -28,5 +29,6 @@ class AppleAppReviewExtractionPipeline():
     def extract_reviews(self):
         reviews_list = AppStore(country="IN",app_name=self.file_name, app_id=self.app_id)
         reviews_list.review()
+        print('Apple app review extraction finished')
         return pd.DataFrame(reviews_list.reviews)
     
