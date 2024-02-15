@@ -1,5 +1,9 @@
 # Customer Experience Analyzer
 
+![alt text](https://www.gosurvey.in/media/a0vmcbf1/customer-experience-is-important-for-businesses.jpg)
+
+![alt text](https://cdn.timesbull.com/wp-content/uploads/2024/02/PhonePe-and-Google-Pay-jpg.webp)
+
 ## Data Extraction Pipeline
 
 
@@ -27,5 +31,6 @@
 
 
 Image References:
-https://cdn.timesbull.com/wp-content/uploads/2024/02/PhonePe-and-Google-Pay-jpg.webp
+
+https://www.gosurvey.in/media/a0vmcbf1/customer-experience-is-important-for-businesses.jpg
 
