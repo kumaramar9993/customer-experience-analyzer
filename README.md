@@ -16,6 +16,17 @@ PhonePe is an all-encompassing payment application that empowers you to conduct 
 
 Google Pay serves as an integrated and secure digital payment platform, aimed at refining and simplifying your financial transactions and management. It facilitates seamless contactless payments across a wide range of venues, immediate money transfers among peers, and access to exclusive deals and rewards from your favored establishments. Google Pay goes further by providing analytical tools to track and manage your spending, offering comprehensive transaction summaries and valuable financial insights linked to your accounts. With a focus on user-friendliness, transactional privacy, and smooth integration with e-commerce, Google Pay stands out as a versatile solution for handling daily payments and overseeing personal finance efficiently.
 
+
+# Industry Analysis & Business Insight
+PhonePe and Google’s local payments services — controlled, on average, 80-85% of UPI volumes every month. NPCI data as of December 2023 shows PhonePe had a 46% share in UPI volumes, followed by Google Pay at 36% and Paytm Payments Bank at 13%.
+
+![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jpg](https://img.etimg.com/photo/msid-107407765/upi-market-share-by-volume.jpg)
+
+![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jg)
+![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
+![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
+
+
 # The Data
 
 Currently, my analysis is based solely on **reviews from the Google Play Store and Apple App Store**. This approach could be expanded to incorporate feedback from public forums, social media monitoring, and internal company data.
@@ -35,10 +46,6 @@ Currently, my analysis is based solely on **reviews from the Google Play Store a
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
-# Industry Analysis & Business Insight
-![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jpg)
-![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
-![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
 # Overview of Customer Experience Analyzer Framework
 ## Data Extraction Pipeline
 
@@ -70,4 +77,5 @@ Currently, my analysis is based solely on **reviews from the Google Play Store a
 Image References:
 
 https://www.gosurvey.in/media/a0vmcbf1/customer-experience-is-important-for-businesses.jpg
+https://economictimes.indiatimes.com/tech/technology/paytm-crisis-upi-market-share-cap-rule-in-focus-leaders-may-corner-a-bigger-pie/articleshow/107406233.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
 
