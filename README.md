@@ -1,4 +1,4 @@
-# Customer Experience Analyzer
+![image](https://github.com/kumaramar9993/customer-experience-analyzer/assets/30383678/e944c815-bb31-4b65-8709-4cc3a3fccb5f)# Customer Experience Analyzer
 
 ![alt text](https://www.gosurvey.in/media/a0vmcbf1/customer-experience-is-important-for-businesses.jpg)
 
@@ -11,6 +11,7 @@ This data science project focuses on curating a thorough collection of issues re
 # Industry Analysis & Business Insight
 ![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jpg)
 ![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
+![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-volume.png)
 # Overview of Customer Experience Analyzer Framework
 
 ## Data Extraction Pipeline
