@@ -22,7 +22,7 @@ PhonePe and Google’s local payments services — controlled, on average, 80-85
 
 ![alt text](https://img.etimg.com/photo/msid-107407765/upi-market-share-by-volume.jpg)
 
-<img src="https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png" width="425"/> <img src="image2.png" width="425"/> 
+<img src="https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png" width="425"/> <img src="https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-volume.png" width="425"/> 
 
 
 
