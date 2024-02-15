@@ -20,7 +20,7 @@ Google Pay serves as an integrated and secure digital payment platform, aimed at
 # Industry Analysis & Business Insight
 PhonePe and Google’s local payments services — controlled, on average, 80-85% of UPI volumes every month. NPCI data as of December 2023 shows PhonePe had a 46% share in UPI volumes, followed by Google Pay at 36% and Paytm Payments Bank at 13%.
 
-![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jpg](https://img.etimg.com/photo/msid-107407765/upi-market-share-by-volume.jpg)
+![alt text](https://img.etimg.com/photo/msid-107407765/upi-market-share-by-volume.jpg)
 
 ![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jg)
 ![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
