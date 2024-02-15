@@ -1,4 +1,4 @@
-# Customer Experience Analyzer
+# Customer Experience Analyzer with GenAI
 
 ![alt text](https://www.gosurvey.in/media/a0vmcbf1/customer-experience-is-important-for-businesses.jpg)
 
