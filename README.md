@@ -8,7 +8,7 @@ This data science project focuses on curating a thorough collection of issues re
 ![alt text](https://cdn.timesbull.com/wp-content/uploads/2024/02/PhonePe-and-Google-Pay-jpg.webp)
 
 
-#### PhonePe
+#### [PhonePe](https://www.phonepe.com/)
 
 PhonePe is an all-encompassing payment application that empowers you to conduct financial transactions effortlessly using BHIM UPI, credit or debit cards, and its in-built wallet. It streamlines various payments such as mobile recharges, utility bill settlements, and shopping at your preferred online and offline merchants. Beyond payments, PhonePe extends its services to financial investments like mutual funds and insurance plans, including vehicle insurance directly through the app. By linking your bank account to PhonePe, you can enjoy instant money transfers via BHIM UPI. The app prioritizes user safety and security, offering a robust alternative to traditional internet banking while catering to a broad spectrum of your payment, investment, and banking requirements.
 
