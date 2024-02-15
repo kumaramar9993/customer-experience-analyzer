@@ -16,6 +16,10 @@ PhonePe is an all-encompassing payment application that empowers you to conduct 
 
 Google Pay serves as an integrated and secure digital payment platform, aimed at refining and simplifying your financial transactions and management. It facilitates seamless contactless payments across a wide range of venues, immediate money transfers among peers, and access to exclusive deals and rewards from your favored establishments. Google Pay goes further by providing analytical tools to track and manage your spending, offering comprehensive transaction summaries and valuable financial insights linked to your accounts. With a focus on user-friendliness, transactional privacy, and smooth integration with e-commerce, Google Pay stands out as a versatile solution for handling daily payments and overseeing personal finance efficiently.
 
+# Scope of the project
+
+Currently, my analysis is based solely on reviews from the Google Play Store and Apple App Store. This approach could be expanded to incorporate feedback from public forums, social media monitoring, and internal company data.
+
 # Industry Analysis & Business Insight
 ![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jpg)
 ![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
