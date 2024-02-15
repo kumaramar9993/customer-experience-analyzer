@@ -11,6 +11,7 @@ This data science project focuses on curating a thorough collection of issues re
 # Industry Analysis & Business Insight
 ![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jpg)
 ![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
+![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
 # Overview of Customer Experience Analyzer Framework
 ## Data Extraction Pipeline
 
@@ -19,8 +20,7 @@ This data science project focuses on curating a thorough collection of issues re
 ### Providing Context of Business
 
 ### Prompt Engineering 
-![alt text]([https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-volume.png](https://pathmonk.com/wp-content/uploads/2023/08/Prompt-Engineering-Effectively-A-Marketers-Guide-to-Mastering-Prompt-Engineering-1024x585.png
-)
+![alt text](https://pathmonk.com/wp-content/uploads/2023/08/Prompt-Engineering-Effectively-A-Marketers-Guide-to-Mastering-Prompt-Engineering-1024x585.png)
 
 ## Analysing Reviews 
     1. Generating Tags, 
