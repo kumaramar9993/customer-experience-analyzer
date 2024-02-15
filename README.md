@@ -10,6 +10,7 @@ This data science project focuses on curating a thorough collection of issues re
 
 # Industry Analysis & Business Insight
 ![alt text](https://techcrunch.com/wp-content/uploads/2024/02/india-upi.jpg)
+![alt text](https://www.npci.org.in/images/npci/upi/upi-Jan24-p2p-p2m-value.png)
 # Overview of Customer Experience Analyzer Framework
 
 ## Data Extraction Pipeline
