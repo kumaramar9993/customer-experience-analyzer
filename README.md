@@ -8,15 +8,20 @@ This data science project focuses on curating a thorough collection of issues re
 
 ![alt text](https://cdn.timesbull.com/wp-content/uploads/2024/02/PhonePe-and-Google-Pay-jpg.webp)
 
+# Industry Analysis & Business Insight
+
+
+# Overview of Customer Experience Analyzer Framework
+
 ## Data Extraction Pipeline
 
 
-# Creating Generative Pre-Trained Transformer Framework
-## Providing Context of Business
+## Creating Generative Pre-Trained Transformer Framework
+### Providing Context of Business
 
-## Prompt Engineering 
+### Prompt Engineering 
 
-# Analysing Reviews 
+## Analysing Reviews 
     1. Generating Tags, 
     2. Tagging Emotional Tone 
     3. Critical Issues
@@ -24,9 +29,9 @@ This data science project focuses on curating a thorough collection of issues re
     5. Customer Suggestion
     6. Escalations
 
-# Generating Actionable Insights
+## Generating Actionable Insights
 
-# Creating a Streamlit app for tracking issues 
+## Creating a Streamlit app for tracking issues 
 
 
 
