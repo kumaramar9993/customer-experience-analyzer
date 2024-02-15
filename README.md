@@ -12,7 +12,7 @@ This data science project focuses on curating a thorough collection of issues re
 
 PhonePe is an all-encompassing payment application that empowers you to conduct financial transactions effortlessly using BHIM UPI, credit or debit cards, and its in-built wallet. It streamlines various payments such as mobile recharges, utility bill settlements, and shopping at your preferred online and offline merchants. Beyond payments, PhonePe extends its services to financial investments like mutual funds and insurance plans, including vehicle insurance directly through the app. By linking your bank account to PhonePe, you can enjoy instant money transfers via BHIM UPI. The app prioritizes user safety and security, offering a robust alternative to traditional internet banking while catering to a broad spectrum of your payment, investment, and banking requirements.
 
-#### Google Pay (Gpay)
+#### [Google Pay (Gpay)](https://pay.google.com/about/)
 
 Google Pay serves as an integrated and secure digital payment platform, aimed at refining and simplifying your financial transactions and management. It facilitates seamless contactless payments across a wide range of venues, immediate money transfers among peers, and access to exclusive deals and rewards from your favored establishments. Google Pay goes further by providing analytical tools to track and manage your spending, offering comprehensive transaction summaries and valuable financial insights linked to your accounts. With a focus on user-friendliness, transactional privacy, and smooth integration with e-commerce, Google Pay stands out as a versatile solution for handling daily payments and overseeing personal finance efficiently.
 
