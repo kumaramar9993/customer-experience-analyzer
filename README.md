@@ -54,12 +54,19 @@ In the domain of artificial intelligence, particularly within the spheres of Nat
 > [!TIP]
 > Prompt engineering is particularly effective in scenarios with limited or non-existent labeled data, offering a streamlined approach to crafting solutions with minimal time and effort. By guiding AI models through precise inputs, it enhances response relevance and efficiency, making it a valuable tool in developing agile and targeted AI applications. 
 ## Analysing Reviews 
-    1. Generating Tags, 
-    2. Tagging Emotional Tone 
-    3. Critical Issues
-    4. Feature failures 
-    5. Customer Suggestion
-    6. Escalations
+1.Ease of Use : Evaluate feedback on the app interface, navigation ease, and user experience.
+2.Payment Features : Assess user experiences with money transfers, contactless payments, and group transactions.
+3.Rewards and Offers : Analyze reactions to rewards, cashbacks, and offers personalization.
+4.Security Measures : Review perceptions of transaction security, data privacy, and authentication processes.
+5.Customer Support : Investigate the support system's effectiveness in resolving user issues and queries.
+6.Innovative Use Cases : Explore feedback on unique features, integrations, and app utilities beyond payments.
+7.User Engagement : Examine the impact of social features, community engagement, and gamification on user experience.
+8.Accessibility and Inclusivity : Evaluate the app's accessibility for users with disabilities and its inclusivity for diverse demographics.
+9.Comparative Insights : Draw comparative insights between PhonePe and Google Pay to highlight unique strengths and areas for improvement.
+10.Future Expectations : Collect user expectations for future app features, updates, or innovative areas.
+11.Emotional Responses : Analyze the emotional tone of feedback to understand user sentiment, satisfaction levels, and loyalty.
+12.Common Failures : Identify and analyze recurring issues, bugs, or system failures reported by users.
+13.Frequent Issues : Examine the most frequently mentioned user complaints or difficulties to prioritize areas needing immediate attention.
 
 ## Generating Actionable Insights
 
