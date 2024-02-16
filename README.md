@@ -29,7 +29,7 @@ PhonePe and Google’s local payments services — controlled, on average, 80-85
 <p float="left">
 <img src="/images/UPI_txn_value.png" width="425"/>
 <img src="/images/UPI_txn_volume.png" width="425"/> 
-<\p>
+</p>
 
 
 
