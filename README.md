@@ -6,7 +6,11 @@
 
 How to use this package
 
-1. Collect and process app feedback from both Google Play Store and Apple App Store. Run <a href="./run_data_extraction_pipeline.py">run_data_extraction_pipeline</a>
+1. Collect feedbacks from both the Google Play Store and Apple App Store. Run <a href="./run_data_extraction_pipeline.py">run_data_extraction_pipeline</a>
+
+[PhonePe Reviews](https://play.google.com/store/apps/details?id=com.phonepe.app&hl=en_IN&gl=US)   
+[Google Pay Reviews](https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user&hl=en&gl=US)
+
 
    python run_data_extraction_pipeline.py
 2. Define Prompt and Context
