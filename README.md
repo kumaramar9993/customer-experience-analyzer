@@ -10,6 +10,8 @@ How to use this package
 
    python run_data_extraction_pipeline.py
 2. Define Prompt and Context
+<a href="/gptcore">GPT Frame work</a>
+   
 3. Review Tagging Using OpenAI GPT key
 4. Creating dashboard for insight generation
 
