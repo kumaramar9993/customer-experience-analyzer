@@ -73,8 +73,12 @@ attention.
 12. **Frequent Issues** : Examine the most frequently mentioned user complaints or difficulties to prioritize areas needing immediate 
 
 > [!NOTE]
-> You can outline specific items within each category to guide the tagging process, ensuring that GPT focuses on these predefined elements for tagging. Without this guidance, GPT might default to using its own knowledge base to determine tags within each category.
->
+> You can outline specific items within each category to guide the tagging process, ensuring that GPT focuses on these predefined elements for tagging. Without this guidance, GPT might default to using its knowledge base to determine tags within each category. For Example - emotional response (Positive, Negative, Neutral)
+
+
+> [!TIP]
+> Choosing not to specify items for tagging can indeed be beneficial in recognizing new and emerging issues, allowing the system to adapt and remain robust without being limited by previously available data. This approach enables the identification of novel trends and challenges that may not have been previously considered, contributing to a more comprehensive understanding of the data landscape.
+
 ## Generating Actionable Insights
 
 ## Creating a Streamlit app for tracking issues 
