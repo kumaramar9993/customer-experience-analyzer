@@ -5,9 +5,8 @@
 ## Generative Pre-Trained Transformer Framework
 
 How to use this package
-![alt text](/src/)
 
-<a href="https://www.w3schools.com">data_extra</a>
+**Data Colection**  <a href="https://www.w3schools.com">run_data_extraction_pipeline</a>
 
 
 
