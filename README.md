@@ -63,6 +63,9 @@ Currently, my analysis is based solely on **reviews from the Google Play Store a
 [PhonePe Reviews](https://play.google.com/store/apps/details?id=com.phonepe.app&hl=en_IN&gl=US)   
 [Google Pay Reviews](https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user&hl=en&gl=US)
 
+> [!IMPORTANT]
+> The duration of this process can vary depending on the volume of reviews the app has received.
+
 ## Creating Generative Pre-Trained Transformer Framework
 ### Providing Context of Business
 
