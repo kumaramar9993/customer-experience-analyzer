@@ -57,8 +57,9 @@ PhonePe and Google’s local payments services — controlled, on average, 80-85
 
 Currently, my analysis is based solely on **reviews from the Google Play Store and Apple App Store**. This approach could be expanded to incorporate feedback from public forums, social media monitoring, and internal company data.
 
-[PhonePe Reviews](https://play.google.com/store/apps/details?id=com.phonepe.app&hl=en_IN&gl=US)   
-[Google Pay Reviews](https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user&hl=en&gl=US)
+- Data Sources :
+   - [PhonePe Reviews](https://play.google.com/store/apps/details?id=com.phonepe.app&hl=en_IN&gl=US)
+   - [Google Pay Reviews](https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user&hl=en&gl=US)
 
 > [!NOTE]
 > During the extraction process, there may be instances where some reviews are not captured due to occasional malfunctions of the crawler. As a result, the number of reviews collected might not accurately reflect the total number of reviews available.
