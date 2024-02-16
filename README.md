@@ -53,7 +53,11 @@ In the domain of artificial intelligence, particularly within the spheres of Nat
 ![alt text](https://pathmonk.com/wp-content/uploads/2023/08/Prompt-Engineering-Effectively-A-Marketers-Guide-to-Mastering-Prompt-Engineering-1024x585.png)
 > [!TIP]
 > Prompt engineering is particularly effective in scenarios with limited or non-existent labeled data, offering a streamlined approach to crafting solutions with minimal time and effort. By guiding AI models through precise inputs, it enhances response relevance and efficiency, making it a valuable tool in developing agile and targeted AI applications. 
-## Analysing Reviews 
+####  Review Processing
+
+To categorize and tag key insights from customer feedback on a payment app, it's essential to adopt a structured approach to feedback analysis. This involves gathering feedback from various channels, transforming qualitative feedback into quantitative data, and using inductive coding to discover themes in the feedback.
+
+
 1. **Ease of Use** : Evaluate feedback on the app interface, navigation ease, and user experience.
 2. **Payment Features** : Assess user experiences with money transfers, contactless payments, and group transactions.
 3. **Rewards and Offers** : Analyze reactions to rewards, cashbacks, and offers personalization.
