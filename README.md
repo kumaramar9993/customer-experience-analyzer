@@ -7,6 +7,7 @@
 How to use this package
 
 1. Collect and process app feedback from both Google Play Store and Apple App Store. Run <a href="./run_data_extraction_pipeline.py">run_data_extraction_pipeline</a>
+
    python run_data_extraction_pipeline.py
 2. Define Prompt 
 
