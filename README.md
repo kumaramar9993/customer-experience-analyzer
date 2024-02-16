@@ -66,6 +66,8 @@ Currently, my analysis is based solely on **reviews from the Google Play Store a
 > [!IMPORTANT]
 > The duration of this process can vary depending on the volume of reviews the app has received.
 
+Review the code at [run_data_extraction_pipeline](./run_data_extraction_pipeline.py).
+
 ## Creating Generative Pre-Trained Transformer Framework
 ### Providing Context of Business
 
