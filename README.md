@@ -72,6 +72,9 @@ attention.
 11. **Common Failures** : Identify and analyze recurring issues, bugs, or system failures reported by users.
 12. **Frequent Issues** : Examine the most frequently mentioned user complaints or difficulties to prioritize areas needing immediate 
 
+> [!NOTE]
+> You can outline specific items within each category to guide the tagging process, ensuring that GPT focuses on these predefined elements for tagging. Without this guidance, GPT might default to using its own knowledge base to determine tags within each category.
+>
 ## Generating Actionable Insights
 
 ## Creating a Streamlit app for tracking issues 
