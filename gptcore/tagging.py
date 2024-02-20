@@ -6,7 +6,7 @@ class AutoTag():
     def __init__(self,custom_prompt,feedbacks):
         self.custom_prompt = custom_prompt
         self.feedbacks = feedbacks
-    def tag_reviews():	
+    def tag_feebacks():	
         tagged_responses = []
         if self.feedbacks:
             for i in range(len(self.feedbacks)):
