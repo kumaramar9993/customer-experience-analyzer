@@ -21,5 +21,5 @@ class AutoTag():
         return tagged_responses
     def write_tagged_responses(self,tagged_responses_file):
         write_json(self.tagged_responses,tagged_responses_file)
-    def write_tagged_responses(input_json_path,output_csv_path):
+    def write_json_to_df(input_json_path,output_csv_path):
         json_to_df(input_json_path,output_csv_path)
