@@ -131,7 +131,7 @@ The JSON schema should be consistent with the provided key names and include bel
 "review": {
     "text": "original_Review",
   },
-  "products_mentioned" :["Wallet", "Insurance"]
+  "products_mentioned" :["Wallet", "Insurance"],
   "sentiment_analysis": {
     "name": "positive",
     "score": 0.9
