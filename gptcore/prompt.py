@@ -1,12 +1,17 @@
-prompt4 = '''
-You are tasked with developing a data analysis API capable of analyzing customer feedback. The API should be able to process feedback and extract relevant information based on predefined categories, subcategories, emotions, and sentiments.
+PROMPT = '''
 
+
+You are tasked with developing a data analysis API capable of analyzing customer feedback. The API should be able to process feedback and extract relevant information based on predefined categories, subcategories, emotions, and sentiments.
 Here is the provided lookup for predefined categories, subcategories, emotions, and sentiments
 Also issue_in_one_word,suggested_improvement_in_one_word,positive_feedback_in_one_word,negative_feedback_in_one_word - specific items are not outlined for these cases - granting you flexibility.
 
 :
 {  "sentiment_list": ["positive", "neutral", "negative"],
   "sentiment_score": "number between [0,1]",
+  "issue_in_one_word": "unsupervised list for robustness",
+  "suggested_improvement_in_one_word": "unsupervised list for robustness",
+  "positive_feedback_in_one_word":  "unsupervised list for robustness",
+  "negative_feedback_in_one_word": "unsupervised list for robustness",
   "emotion_list": ["happy", "satisfied", "anxious", "disappointed", "angry"],
   "emotion_score": "number between [0,1]",
   "category_subcateory_map":{"category_list": [
