@@ -1,69 +1,207 @@
-{
-  "task": "Comprehensive Analysis of PhonePe and Google Pay Customer Feedback",
-  "objectives": [
-    {
-      "category": "Ease of Use",
-      "description": "Evaluate feedback on the app interface, navigation ease, and user experience."
+PROMPT = '''
+You are tasked with developing a data analysis API capable of analyzing customer feedback. The API should be able to process feedback and extract relevant information based on predefined categories, subcategories, emotions, and sentiments.
+
+Here is the provided lookup for predefined categories, subcategories, emotions, and sentiments
+Also, issue_in_one_word,suggested_improvement_in_one_word,positive_feedback_in_one_word,negative_feedback_in_one_word - specific items are not outlined for these cases - granting you flexibility:
+
+{  "sentiment_list": ["positive", "neutral", "negative"],
+  "sentiment_score": "number between [0,1]",
+  "issue_in_one_word": "unsupervised list for robustness",
+  "suggested_improvement_in_one_word": "unsupervised list for robustness",
+  "positive_feedback_in_one_word":  "unsupervised list for robustness",
+  "negative_feedback_in_one_word": "unsupervised list for robustness",
+  "emotion_list": ["happy", "satisfied", "anxious", "disappointed", "angry"],
+  "emotion_score": "number between [0,1]",
+  "category_subcateory_map":{"category_list": [
+    "Ease of Use",
+    "Payment Features",
+    "Rewards and Offers",
+    "Security Measures",
+    "Customer Support",
+    "Innovative Use Cases",
+    "User Engagement",
+    "Accessibility and Inclusivity",
+    "Comparative Insights",
+    "Future Expectations",
+    "Emotional Responses",
+    "Common Failures",
+    "Frequent Issues"
+  ],
+  "categories": {
+    "Ease of Use": {
+      "subcategories": [
+        "App Interface Design",
+        "Navigation and Usability",
+        "User Experience"
+      ]
     },
-    {
-      "category": "Payment Features",
-      "description": "Assess user experiences with money transfers, contactless payments, and group transactions."
+    "Payment Features": {
+      "subcategories": [
+        "Money Transfers",
+        "Contactless Payments",
+        "Group Transactions"
+      ]
     },
-    {
-      "category": "Rewards and Offers",
-      "description": "Analyze reactions to rewards, cashbacks, and offers personalization."
+    "Rewards and Offers": {
+      "subcategories": [
+        "Reward System",
+        "Cashbacks",
+        "Personalization"
+      ]
     },
-    {
-      "category": "Security Measures",
-      "description": "Review perceptions of transaction security, data privacy, and authentication processes."
+    "Security Measures": {
+      "subcategories": [
+        "Transaction Security",
+        "Data Privacy",
+        "Authentication Processes"
+      ]
     },
-    {
-      "category": "Customer Support",
-      "description": "Investigate the support system's effectiveness in resolving user issues and queries."
+    "Customer Support": {
+      "subcategories": [
+        "Responsiveness",
+        "Resolution Effectiveness",
+        "Support Channels"
+      ]
     },
-    {
-      "category": "Innovative Use Cases",
-      "description": "Explore feedback on unique features, integrations, and app utilities beyond payments."
+    "Innovative Use Cases": {
+      "subcategories": [
+        "Unique Features",
+        "App Integrations",
+        "Utility Beyond Payments"
+      ]
     },
-    {
-      "category": "User Engagement",
-      "description": "Examine the impact of social features, community engagement, and gamification on user experience."
+    "User Engagement": {
+      "subcategories": [
+        "Social Features",
+        "Community Engagement",
+        "Gamification"
+      ]
     },
-    {
-      "category": "Accessibility and Inclusivity",
-      "description": "Evaluate the app's accessibility for users with disabilities and its inclusivity for diverse demographics."
+    "Accessibility and Inclusivity": {
+      "subcategories": [
+        "Disability Access",
+        "Language and Regional Adaptation",
+        "Demographic Inclusivity"
+      ]
     },
-    {
-      "category": "Comparative Insights",
-      "description": "Draw comparative insights between PhonePe and Google Pay to highlight unique strengths and areas for improvement."
+    "Comparative Insights": {
+      "subcategories": [
+        "Unique Strengths",
+        "Areas for Improvement",
+        "User Preference Trends"
+      ]
     },
-    {
-      "category": "Future Expectations",
-      "description": "Collect user expectations for future app features, updates, or innovative areas."
+    "Future Expectations": {
+      "subcategories": [
+        "Desired Features",
+        "Innovative Concepts",
+        "Feedback on Roadmap"
+      ]
     },
-    {
-      "category": "Emotional Responses",
-      "description": "Analyze the emotional tone of feedback to understand user sentiment, satisfaction levels, and loyalty."
+    "Emotional Responses": {
+      "subcategories": [
+        "Sentiment Analysis",
+        "Satisfaction Levels",
+        "Brand Loyalty"
+      ]
     },
-    {
-      "category": "Common Failures",
-      "description": "Identify and analyze recurring issues, bugs, or system failures reported by users."
+    "Common Failures": {
+      "subcategories": [
+        "Recurring Bugs",
+        "System Downtimes",
+        "Feature Limitations"
+      ]
     },
-    {
-      "category": "Frequent Issues",
-      "description": "Examine the most frequently mentioned user complaints or difficulties to prioritize areas needing immediate attention."
+    "Frequent Issues": {
+      "subcategories": [
+        "Payment Failures",
+        "Account Issues",
+        "Update Related Issues"
+      ]
     }
-  ],
-  "methodology": "Use sentiment analysis, thematic categorization, and trend analysis across diverse data sources like app reviews, social media, and direct feedback.",
-  "output_expectations": {
-    "summary": "Provide a summarized analysis for each category, outlining main themes, common praises, and areas of criticism.",
-    "recommendations": "Offer actionable recommendations for enhancing user experience, resolving common issues, and leveraging positive feedback."
-  },
-  "data_sources": [
-    "App store reviews",
-    "Social media platforms",
-    "User surveys",
-    "Direct in-app feedback"
-  ],
-  "additional_notes": "Ensure privacy compliance and consider cultural, regional, and demographic diversity in feedback analysis."
+  }
 }
+}
+
+Please provide your analysis directly in JSON format, without employing Markdown code blocks or any other formatting.
+Ensure that each response includes a confidence score with a two-decimal value ranging from 0 to 1, based on the analysis result.
+The JSON schema should be consistent with the provided key names and include below format:
+{
+"review": {
+    "text": "original_Review",
+  },
+  "sentiment_analysis": {
+    "name": "positive",
+    "score": 0.9
+  },
+  "issue_in_one_word": {
+    "name": "payment method",
+  },
+  "suggested_improvement_in_one_word": {
+    "name": "add debit card "
+  },
+  "positive_feedback_in_one_word": {
+    "name": "Good App"
+  },
+"negative_feedback_in_one_word": {
+    "name": "less payment method"
+  },
+    "topic_extraction": {
+    "top1": {
+      "name": "Payment Ease",
+      "score": 0.9
+    },
+    "top2": {
+      "name": "Customer Support",
+      "score": 0.85
+    },
+    "top3": {
+      "name": "Security Features",
+      "score": 0.8
+    }
+  },
+  "emotion_detection": {
+    "top1": {
+      "name": "satisfied",
+      "score": 0.95
+    },
+    "top2": {
+      "name": "happy",
+      "score": 0.9
+    },
+    "top3": {
+      "name": "anxious",
+      "score": 0.85
+    }
+  },
+  "categories": {
+    "top1": {
+      "name": "Ease of Use",
+      "subcategory": {
+        "name": "Navigation and Usability",
+        "score": 0.95,
+        "emotion_name": "happy",
+        "emotion_confidence": 0.9
+      }
+    },
+    "top2": {
+      "name": "Payment Features",
+      "subcategory": {
+        "name": "Contactless Payments",
+        "score": 0.9,
+        "emotion_name": "satisfied",
+        "emotion_confidence": 0.88
+      }
+    },
+    "top3": {
+      "name": "Security Measures",
+      "subcategory": {
+        "name": "Data Privacy",
+        "score": 0.85,
+        "emotion_name": "secure",
+        "emotion_confidence": 0.92
+      }
+    }
+  }
+}
+'''
