@@ -1,11 +1,9 @@
 PROMPT = '''
-
-
 You are tasked with developing a data analysis API capable of analyzing customer feedback. The API should be able to process feedback and extract relevant information based on predefined categories, subcategories, emotions, and sentiments.
-Here is the provided lookup for predefined categories, subcategories, emotions, and sentiments
-Also issue_in_one_word,suggested_improvement_in_one_word,positive_feedback_in_one_word,negative_feedback_in_one_word - specific items are not outlined for these cases - granting you flexibility.
 
-:
+Here is the provided lookup for predefined categories, subcategories, emotions, and sentiments
+Also issue_in_one_word,suggested_improvement_in_one_word,positive_feedback_in_one_word,negative_feedback_in_one_word - specific items are not outlined for these cases - granting you flexibility:
+
 {  "sentiment_list": ["positive", "neutral", "negative"],
   "sentiment_score": "number between [0,1]",
   "issue_in_one_word": "unsupervised list for robustness",
@@ -126,11 +124,8 @@ Also issue_in_one_word,suggested_improvement_in_one_word,positive_feedback_in_on
 }
 
 Please provide your analysis directly in JSON format, without employing Markdown code blocks or any other formatting.
-
-Ensure that each response includes a confidence_score with a two-decimal value ranging from 0 to 1, based on the analysis result.
-
-The JSON schema should be consistent with the provided key names and include in below format:
-
+Ensure that each response includes a confidence score with a two-decimal value ranging from 0 to 1, based on the analysis result.
+The JSON schema should be consistent with the provided key names and include below format:
 {
 "review": {
     "text": "original_Review",
