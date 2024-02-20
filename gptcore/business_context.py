@@ -1,3 +1,4 @@
+# Providing Business context for better context setting for GPT model
 
 business_context = '''
 Company is a leading provider of innovative payment solutions in India, dedicated to simplifying financial transactions for
