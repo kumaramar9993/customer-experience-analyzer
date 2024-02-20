@@ -1,3 +1,5 @@
+
+business_context = '''
 Company is a leading provider of innovative payment solutions in India, dedicated to simplifying financial transactions for
 businesses and consumers alike. With our cutting-edge technology and user-friendly interfaces, we strive to revolutionize the 
 way people engage with their finances.
@@ -18,4 +20,4 @@ Products and Services:
 4. Insights: Knowledge is power.  Insights leverages data analytics and consumer insights to help businesses make informed decisions 
             and optimize their payment strategies. From transaction trends to customer preferences, we provide actionable intelligence 
             to drive growth and profitability.
-
+'''
