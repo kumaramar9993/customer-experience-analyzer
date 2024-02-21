@@ -19,7 +19,7 @@ def write_json(response,output_file):
     print("JSON list has been written to", output_file)
 
 # read response into JSON
-def read_json(response,output_file):
+def read_json(input_file):
     with open(input_file, "rb") as file:
         responses = json.loads(file.read())
     return responses
