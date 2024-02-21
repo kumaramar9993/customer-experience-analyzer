@@ -20,15 +20,15 @@ def write_json(response,output_file):
 
 
 # list of dict to output
-def json_to_df(input_file,output_file):
-    with open(input_file, "rb") as file:
-        responses = json.loads(file.read())
-    
+def json_to_df(responses):
     results = []
     for response in responses:
         results.append(json.loads(response))
+    return pd.json_normalize(results)
     
-    pd.json_normalize(results).to_csv(output_file,index=False)
+def write_to_csv(df,output_file):
+    df.to_csv(output_file,index=False)
+    
    
 def tag_reviews(custom_prompt,feebacks):	
     results = []
