@@ -6,6 +6,7 @@ Also, issue_in_one_word,suggested_improvement_in_one_word,positive_feedback_in_o
 
 {  "sentiment_list": ["positive", "neutral", "negative"],
   "sentiment_score": "number between [0,1]",
+  "products_mentioned": "unsupervised list for robustness",
   "issue_in_one_word": "unsupervised list for robustness",
   "suggested_improvement_in_one_word": "unsupervised list for robustness",
   "positive_feedback_in_one_word":  "unsupervised list for robustness",
@@ -130,6 +131,7 @@ The JSON schema should be consistent with the provided key names and include bel
 "review": {
     "text": "original_Review",
   },
+  "products_mentioned" :["Wallet", "Insurance"],
   "sentiment_analysis": {
     "name": "positive",
     "score": 0.9
