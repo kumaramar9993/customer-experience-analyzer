@@ -1,3 +1,6 @@
+import json
+import openai
+import pandas as pd
 
 # get response from OpenAi Api 
 def get_completion(prompt, model="gpt-3.5-turbo"): 
